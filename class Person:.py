@@ -6,7 +6,7 @@ class Person:
     self.lname = lname
     self.date_joined = date_joined
 
-p1 = Person("John", "Maxwell", 36,45521452111,"08/31/1944")
+p1 = Person("big Jack", "Maxwell", 36,45521452111,"08/31/1944")
 p2 = Person("Bill", "Williams", 24, 383882338823, "09/22/1990")
 
 print(p1.fname)
