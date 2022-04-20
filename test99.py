@@ -1,13 +1,14 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
-    return '<h1>Numbers Pro v0.1.0</h1>'
+def homepage():
+    return render_template('home.html')
 
-@app.route('/about/<username>')
-def about_page(username):
-    return f'<h1>About Numbers Pro v0.1.0 for {username}</h1>'
+@app.route('/about')
+def about_page():
+    return render_template('about.html')
+
     
 if __name__ == '__main__':
     app.run(debug=True)
