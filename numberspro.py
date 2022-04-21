@@ -18,22 +18,22 @@ def about_page():
 
 # Route to the Sign-in page
 @app.route('/signin')
-def about_page():
+def signin_page():
     return render_template('signin.html')
 
 # Route to the Purchase page
 @app.route('/purchase')
-def about_page():
+def purchase_page():
     return render_template('purchase.html')
 
 # Route to the Documentation page
 @app.route('/docs')
-def about_page():
+def docs_page():
     return render_template('docs.html')
 
 # Route to the Dashboard page
 @app.route('/dashboard')
-def about_page():
+def dashboard_page():
     return render_template('dashboard.html')
 
     
