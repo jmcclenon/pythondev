@@ -31,6 +31,11 @@ def about_page():
 def about_page():
     return render_template('docs.html')
 
+# Route to the Dashboard page
+@app.route('/dashboard')
+def about_page():
+    return render_template('dashboard.html')
+
     
 if __name__ == '__main__':
     app.run(debug=True)
