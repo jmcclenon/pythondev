@@ -1,7 +1,3 @@
-# NumbersPro.py
-# Development version 1.0
-# Flask route code to HTML files that make up this app
-
 from flask import Flask, render_template
 app = Flask(__name__)
 
