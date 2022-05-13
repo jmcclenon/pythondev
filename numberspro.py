@@ -18,9 +18,9 @@ def signin_page():
     return render_template('signin.html')
 
 # Route to the Purchase page
-@app.route('/purchase')
+@app.route('/purchaseme')
 def purchase_page():
-    return render_template('purchase.html')
+    return render_template('purchaseme.html')
 
 # Route to the Documentation page
 @app.route('/docs')
