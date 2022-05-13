@@ -18,14 +18,19 @@ def signin_page():
     return render_template('signin.html')
 
 # Route to the Purchase page
-@app.route('/purchaseme')
+@app.route('/pricing')
 def purchase_page():
-    return render_template('purchaseme.html')
+    return render_template('pricing.html')
 
 # Route to the Documentation page
 @app.route('/docs')
 def docs_page():
     return render_template('docs.html')
+
+# Route to the Blog page
+@app.route('/blog')
+def docs_page():
+    return render_template('blog.html')
 
 # Route to the Dashboard page
 @app.route('/dashboard')
