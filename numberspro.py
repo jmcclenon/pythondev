@@ -17,9 +17,9 @@ def about_page():
 def signin_page():
     return render_template('signin.html')
 
-# Route to the Purchase page
+# Route to the Pricing page
 @app.route('/pricing')
-def purchase_page():
+def pricing_page():
     return render_template('pricing.html')
 
 # Route to the Documentation page
@@ -29,7 +29,7 @@ def docs_page():
 
 # Route to the Blog page
 @app.route('/blog')
-def docs_page():
+def blog_page():
     return render_template('blog.html')
 
 # Route to the Dashboard page
