@@ -12,10 +12,15 @@ def homepage():
 def about_page():
     return render_template('about.html')
 
-# Route to the Sign-in page
-@app.route('/signin')
-def signin_page():
-    return render_template('signin.html')
+# Route to the Documentation page
+@app.route('/docs')
+def docs_page():
+    return render_template('docs.html')
+
+# Route to the Sign Up page
+@app.route('/signup')
+def signup_page():
+    return render_template('signup.html')
 
 # Route to the Pricing page
 @app.route('/pricing')
